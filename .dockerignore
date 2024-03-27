@@ -1,0 +1,23 @@
+# Ignore files and directories commonly excluded in Python projects
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore development and local environment files
+.env
+*.log
+*.sqlite3
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore other unnecessary files
+node_modules
+*.iml
+*.DS_Store
